@@ -1,0 +1,21 @@
+Package: boilplot
+Title: BoilPlot
+Version: 0.1.0
+Authors@R:
+    person(
+        "Jerman", "Lara",
+        role = c("aut", "cre")
+    )
+Description:
+    Specialised plotting for single-cell expression data (or other zero-inflated data)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    dplyr,
+    ggplot2,
+    scales,
+    Seurat,
+    SeuratObject,
+    tidyr
+URL: https://github.com/laraj1/boilplot-r
