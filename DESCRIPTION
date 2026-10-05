@@ -4,6 +4,7 @@ Version: 0.1.0
 Authors@R:
     person(
         "Jerman", "Lara",
+        email = "33095155+laraj1@users.noreply.github.com",
         role = c("aut", "cre")
     )
 Description:
