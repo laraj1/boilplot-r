@@ -462,14 +462,18 @@ get_expression <- function(
   }
   
   # Return cells x genes for downstream data preparation
-  t(
+  # Return cells x genes to match the downstream data preparation.
+  expression <- as.matrix(
     expression[
       genes,
       ,
       drop = FALSE
     ]
   )
+  
+  t(expression)
 }
+
 # Plot data preparation
 prepare_plot_data <- function(
     object,
